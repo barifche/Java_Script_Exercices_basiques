@@ -1,13 +1,7 @@
-let nombre = prompt("De quel nombre veux-tu calculer la factorielle ?");
- 
-function factorial(nombre) {
-let result = 1
+console.log("Bonjour Monde");
 
-  while(nombre >= 1) {
-    result = result* nombre;
-    nombre --;
-  }
- return result
-}
+console.log("Quel est votre prénom");
 
-console.log("Le résultat est : ${factorielle()}")
+let prenom = prompt("Entrer votre prenom ici ?");
+
+console.log("Bonjour " +  prenom );
